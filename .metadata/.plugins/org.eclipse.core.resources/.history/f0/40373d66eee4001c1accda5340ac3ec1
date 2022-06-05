@@ -1,0 +1,27 @@
+package com.demo.JDBC.model;
+
+import javax.persistence.Entity;
+
+import lombok.AllArgsConstructor;
+
+
+
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Data
+@Entity(name="user_jdbc")
+public class User {
+
+	private int id;
+	private String fname;
+	private String lname;
+	private String email;
+	
+	
+
+	
+
+}

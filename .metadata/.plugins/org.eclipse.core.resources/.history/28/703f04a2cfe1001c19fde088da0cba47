@@ -1,0 +1,15 @@
+package com.demo.otm.service;
+
+import java.util.List;
+
+import com.demo.otm.dto.StudentDTO;
+
+public interface StudentService {
+
+	List<StudentDTO> getAllStudent();
+
+	
+
+
+
+}

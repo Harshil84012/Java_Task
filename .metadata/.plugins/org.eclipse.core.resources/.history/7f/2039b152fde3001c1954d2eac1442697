@@ -1,0 +1,23 @@
+package com.demo.otm.service;
+
+import java.util.List;
+
+import com.demo.otm.dto.OrganizationDTO;
+
+public interface OrganizationService {
+
+	List<OrganizationDTO> listAll();
+
+
+	
+
+	
+
+	
+
+
+
+
+	
+
+}

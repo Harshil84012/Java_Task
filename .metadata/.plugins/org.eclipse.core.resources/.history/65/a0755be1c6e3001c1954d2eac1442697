@@ -1,0 +1,19 @@
+package com.demo.Service;
+
+import java.util.List;
+
+import com.demo.model.Student;
+
+public interface StudentService {
+
+	List<Student> listAll();
+
+	void save(Student student);
+
+	Student get(Integer id);
+
+	void delete(Integer id);
+
+	
+
+}

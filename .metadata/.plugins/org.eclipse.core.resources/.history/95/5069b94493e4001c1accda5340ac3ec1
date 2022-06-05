@@ -1,0 +1,47 @@
+package com.example.ems.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.example.ems.exception.ResourceNotFoundException;
+import com.example.ems.model.Employee;
+import com.example.ems.repository.EmployeeRepository;
+
+public class EmployeeServiceImpl implements EmployeeService {
+
+	@Autowired
+	private EmployeeRepository employeeRepository;
+
+	@Override
+	public Employee updateEmployee(Long id, Employee employee) {
+
+		return this.employeeRepository.;
+	}
+
+	@Override
+	public Employee addEmployee(Employee employee) {
+
+		return this.employeeRepository.save(employee);
+	}
+
+	@Override
+	public Employee deleteEmployee(Long id) {
+	
+		Employee employee=
+		return 
+	}
+
+	@Override
+	public Employee findEmployeeById(Long id) {
+
+		return this.employeeRepository.findById(id).orElseThrow(()-> new ResourceNotFoundException("employee not found"+id));
+	}
+
+	@Override
+	public List<Employee> findAllEmployees() {
+		// TODO Auto-generated method stub
+		return this.employeeRepository.findAll();
+	}
+
+}

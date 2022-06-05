@@ -1,0 +1,10 @@
+com\demo\Application.class
+com\demo\exception\ErrorDetails.class
+com\demo\Service\StudentServiceImpl.class
+com\demo\exception\GlobalExceptionHandler.class
+com\demo\exception\ResourceNotFoundException.class
+com\demo\HibernateConfiguration.class
+com\demo\repository\StudentRepository.class
+com\demo\controller\Controller.class
+com\demo\Service\StudentService.class
+com\demo\model\Student.class

@@ -1,0 +1,39 @@
+package com.example.ems.service;
+
+import java.util.List;
+
+import com.example.ems.model.Employee;
+
+public class EmployeeServiceImpl implements EmployeeService {
+
+	@Override
+	public Employee updateEmployee(Long id, Employee employee) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Employee addEmployee(Employee employee) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Employee deleteEmployee(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Employee findEmployeeById(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Employee> findAllEmployees() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

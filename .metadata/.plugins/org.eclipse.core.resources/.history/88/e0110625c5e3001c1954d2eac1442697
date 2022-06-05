@@ -1,0 +1,37 @@
+package com.demo.Service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.demo.model.Student;
+import com.demo.repository.StudentRepository;
+
+@Service
+public class StudentService {
+	@Autowired
+	private StudentRepository studentrepository;
+
+	public List<Student> listAll() {
+		return studentrepository.findAll();
+	}
+
+	public Student get(Integer id) {
+		return studentrepository.findOne(id);
+
+	}
+
+	public Student save(Student student) {
+		
+		return studentrepository.save(student);
+
+	}
+
+	public void delete(Integer id) {
+		studentrepository.delete(id);
+
+	}
+	
+
+}

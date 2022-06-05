@@ -1,0 +1,6 @@
+package com.example.ems.service;
+
+public class EmployeeServiceImpl implement EmployeeService
+{
+
+}

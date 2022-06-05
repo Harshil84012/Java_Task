@@ -1,0 +1,23 @@
+package com.demo.otm.service;
+
+import java.util.List;
+
+import com.demo.otm.dto.StudentDTO;
+import com.demo.otm.model.Student;
+
+public interface StudentService {
+
+	List<StudentDTO> getAllStudent();
+
+	void savestudent(StudentDTO studentDTO);
+
+	Student getStudenById(Integer id);
+
+	Student updateStudent(StudentDTO studentDTO, Integer id);
+
+	void deleteStudent(Integer id);
+
+
+
+
+}

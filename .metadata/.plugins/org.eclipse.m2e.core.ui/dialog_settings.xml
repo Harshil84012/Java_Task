@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="E:\Intern_Task\ems"/>
+			<item value="E:\Intern_Task\swagger"/>
+			<item value="E:\Intern_Task\security"/>
+			<item value="E:\Intern_Task\main"/>
+			<item value="E:\Intern_Task\jwt"/>
+			<item value="E:\Intern_Task\JDBC"/>
+			<item value="E:\Intern_Task\OTO"/>
+			<item value="E:\Intern_Task\OTM (1)"/>
+			<item value="E:\Intern_Task\MTO"/>
+			<item value="E:\Intern_Task\MTM"/>
+			<item value="E:\Intern_Task\validationtask"/>
+			<item value="E:\Intern_Task\DTO\dto"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

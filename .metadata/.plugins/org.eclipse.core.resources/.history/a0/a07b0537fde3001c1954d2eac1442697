@@ -1,0 +1,20 @@
+package com.demo.otm.service;
+
+import java.util.List;
+
+import com.demo.otm.controller.Student;
+import com.demo.otm.dto.StudentDTO;
+
+public interface StudentService {
+
+	List<StudentDTO> getAllStudent();
+
+	void savestudent(StudentDTO studentDTO);
+
+	Student getStudenById(Integer id);
+
+	
+
+
+
+}

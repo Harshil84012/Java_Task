@@ -1,0 +1,11 @@
+package com.example.ems.service;
+
+import com.example.ems.model.Employee;
+
+public interface EmployeeService {
+
+	Employee updateEmployee(Long id, Employee employee);
+
+	Employee addEmployee(Employee employee);
+
+}

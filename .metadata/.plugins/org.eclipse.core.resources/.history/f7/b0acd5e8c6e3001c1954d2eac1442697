@@ -1,0 +1,9 @@
+package com.demo.Service;
+
+
+public interface StudentService {
+
+	
+	
+
+}

@@ -1,0 +1,42 @@
+package com.demo.Service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.demo.model.Student;
+import com.demo.repository.StudentRepository;
+
+public class StudentServiceImpl implements StudentService{
+	
+	
+	
+	@Autowired
+	private StudentRepository studentRepository;
+
+	@Override
+	public List<Student> listAll() {
+		// TODO Auto-generated method stub
+		return studentRepository.findAll();
+	}
+
+	@Override
+	public void save(Student student) {
+		// TODO Auto-generated method stub
+		this.studentRepository.save(student);
+		
+	}
+
+	@Override
+	public Student get(Integer id) {
+		// TODO Auto-generated method stub
+		return studentRepository.findOne(id);
+	}
+
+	@Override
+	public void delete(Integer id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

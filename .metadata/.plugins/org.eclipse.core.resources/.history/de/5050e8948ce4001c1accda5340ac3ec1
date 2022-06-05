@@ -1,0 +1,16 @@
+package com.example.ems.model;
+
+import javax.persistence.Entity;
+
+import lombok.Data;
+
+@Data
+@Entity(name = "Employee")
+public class Employee {
+
+	private long id;
+	private String firstname;
+	private String lastname;
+	private String emailid;
+
+}
